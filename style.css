@@ -1,0 +1,152 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(8, 67, 85);
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.logo img {
+  width: 70px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.nav-list li {
+  padding: 0 15px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-list li a:hover,
+.nav-list li a.active {
+  color: #ffd700;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#search {
+  padding: 7px 12px;
+  font-size: 16px;
+  border: 1.5px solid gray;
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 7px 14px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: white;
+  color: rgb(8, 67, 85);
+}
+
+.box-main,
+.paras {
+  padding: 40px 60px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-big {
+  font-size: 28px;
+  color: rgb(8, 67, 85);
+  margin-bottom: 10px;
+}
+
+.text-small {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+hr {
+  margin: 20px auto;
+  width: 60%;
+  border: 1px solid rgb(8, 67, 85);
+}
+
+.topics {
+  list-style: disc;
+  margin-top: 15px;
+  text-align: left;
+  padding-left: 40px;
+  font-size: 17px;
+  color: #444;
+}
+
+.text-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(8, 67, 85);
+  color: white;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .rightNav {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .box-main,
+  .paras {
+    padding: 30px 20px;
+  }
+
+  .topics {
+    padding-left: 20px;
+  }
+}
