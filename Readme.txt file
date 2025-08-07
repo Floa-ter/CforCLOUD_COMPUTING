@@ -28,15 +28,16 @@ This simple static website contains the following sections:
 
 ```plaintext
 .
-├── index.html         # Main HTML file containing all content
-├── style.css          # CSS file for layout and styling
-├── cloud_computing.jpg # Image used in the header logo
-└── README.md          # Project description
+├── index.html           # Main HTML file containing all content
+├── style.css            # CSS file for layout and styling
+├── Screenshot1.png      # Screenshot of the website
+├── cloud_computing.jpg  # Image used in the header logo
+└── README.md            # Project description
 
 ## 📸 Website Preview
 
 Here’s a preview of the website interface:
 
-![Cloud Computing Basics Website](Screenshot1.png)
+![Cloud Computing Basics Website](Screenshot1.png);
 
 
