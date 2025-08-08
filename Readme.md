@@ -24,6 +24,14 @@ This simple static website contains the following sections:
 
 ---
 
+## 📸 Website Preview
+
+Here’s a preview of the website interface:
+
+![Cloud Computing Basics Website](screenshot.png)
+
+---
+
 ## 📁 Project Structure
 
 ```plaintext
@@ -33,10 +41,3 @@ This simple static website contains the following sections:
 ├── Screenshot1.png      # Screenshot of the website
 ├── cloud_computing.jpg  # Image used in the header logo
 └── README.md            # Project description
-
-## 📸 Website Preview
-
-Here’s a preview of the website interface:
-
-![Cloud Computing Basics Website](screenshot.png)
-
