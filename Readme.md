@@ -38,5 +38,5 @@ This simple static website contains the following sections:
 
 Here’s a preview of the website interface:
 
-![Cloud Computing Basics Website](Screenshot1.png)
+![Cloud Computing Basics Website](screenshot.png)
 
