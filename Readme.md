@@ -34,10 +34,4 @@ This simple static website contains the following sections:
 ├── cloud_computing.jpg  # Image used in the header logo
 └── README.md            # Project description
 
-## 📸 Website Preview
-
-Here’s a preview of the website interface:
-
-![Cloud Computing Basics Website](Screenshot1.png)
-
-
+---
